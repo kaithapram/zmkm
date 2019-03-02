@@ -1,0 +1,32 @@
+title: 芝麻开门
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+ You can update description in update blog details page.
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://keralahost.in/zmkm" # the base hostname & protocol for your site
+google_adsense: Your-adsense-code
+
+markdown: kramdown
+
+name: 芝麻开门
+
+date: 2019-03-02 07:13:00 +0000
+permalink: /:year/:month/:day/:title
+
+logo: false
+sass:
+    load_paths:
+        - _sass
+        - bs
+paginate: 10
+adsid: ca-pub-8582082279264878
+domain_name: http://keralahost.in/zmkm/
+google_analytics: UA-31XXXXXX-X
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+cover: 
+author_image: 
+# Details for the RSS feed generator
+author:        zmkm
